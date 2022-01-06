@@ -1,12 +1,15 @@
 import React from 'react'
-import {Navigation} from "./routes/"
+import {Navigation} from "./routes"
+
+import {ClientLayout} from "./layouts"
+import {AdminLayout} from "./layouts"
 
 export default function App() {
   return (
-    <div>
+    <AdminLayout>
       <h1>Fernando Gutierrez</h1>
       <p>Un parrafo</p>
-      <Navigation />
-    </div>
+       <Navigation />
+    </AdminLayout>
   );
 }
