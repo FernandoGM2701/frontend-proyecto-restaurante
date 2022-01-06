@@ -7,7 +7,12 @@ const routesClient = [
         path: "/",
         layout: ClientLayout,
         component: Home,
-    }
+    },
+    {
+        path:"*",
+        layout: ClientLayout,
+        component: Error404,
+    },
 ];
 
 export default routesClient;

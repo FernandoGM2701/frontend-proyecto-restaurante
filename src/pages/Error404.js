@@ -5,5 +5,5 @@ export function Error404() {
         <div>
             <p>Error 404</p>
         </div>
-    )
+    );
 }
