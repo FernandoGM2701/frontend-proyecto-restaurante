@@ -6,10 +6,8 @@ import {AdminLayout} from "./layouts"
 
 export default function App() {
   return (
-    <AdminLayout>
-      <h1>Fernando Gutierrez</h1>
-      <p>Un parrafo</p>
+    <div>
        <Navigation />
-    </AdminLayout>
+    </div>
   );
 }
